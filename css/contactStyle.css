@@ -1,0 +1,41 @@
+
+
+body{
+    background: rgba(0,0,0,0.7) url('https://source.unsplash.com/1600x900/?city,building');
+}
+
+.container h1{
+    text-align: center;
+    color: aliceblue;
+
+}
+
+
+.form{
+
+    height: 90vh;
+    max-width: 61%;
+    margin: 104px auto;
+   
+    
+
+}
+.btn{
+    display: flex;
+    margin: auto;
+    padding: 7px 125px;
+}
+.text-footer{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.label{
+    color: aliceblue;
+    font-size: large;
+    font-weight: bolder;
+}

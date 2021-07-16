@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 25%;
+    height: 42px;
+    border: 2px solid white;
+    border-radius: 50px;
+    /* padding-top: 17px; */
+    margin-top: 7px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+    
+   
+}
+.navlist{
+    width: 70%;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    align-items: center;
+}
+.navlist li{
+        list-style: none;
+        padding: 5px 24px;
+    font-size: 19px;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    
+} 
+.navlist li a:hover{
+    
+    color: grey;
+    
+} 
+.rightNav{
+    /* background-color: royalblue; */
+    width: 30%;
+    text-align: right;
+    padding: 1px 10px;
+    max-width: 47%;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    /* background: rgba(0,0,0,0.7) url('https://source.unsplash.com/1600x900/?city,building');
+    background-size: cover;
+    background-blend-mode: darken; */
+    background-color: rgb(49, 47, 47);
+
+}
+.firstSection{
+    height: 100vh;
+    background: rgba(0,0,0,0.7) url('https://source.unsplash.com/1600x900/?city,building');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: honeydew;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    /* padding: 15px 0px; */
+    height: 97%;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.secondHalf{
+    width: 35%;
+    
+}
+
+.secondHalf img{
+    width: 150px;
+    height: 145px;
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 28px;
+    padding: 6px 0px;
+
+}
+.text-small{
+    font-size: 15px;
+    padding: 7px 0px;
+}
+.btn{
+    padding: 5px 17px;
+    border: 3px solid white;
+    border-radius: 18px;
+    font-size: 14px;
+    background-color: antiquewhite;
+    font-family: unset;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 5px 17px;
+    vertical-align: middle;
+   
+}
+.btn-submit{
+    background-color: rgb(79, 79, 149);
+    border: 2px solid black;
+    width: 106%;
+    margin: auto;
+    padding: 4px;
+    border-radius: 11px;
+    font-size: 23px;
+}
+.section{
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+    padding: 0px 72px;
+
+}
+
+.secLeft{
+    
+    flex-direction: row-reverse;
+
+}
+.secLeft img{
+    height: 187px;
+    width: 278px;
+    padding: 0px 32px;
+}
+.section img{
+    height: 187px;
+    width: 278px;
+    padding: 0px 32px;
+    
+}
+.secTag{
+    font-size: 34px;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+.secSubTag{
+    font-size: 17px;
+    font-family: revert;
+
+}
+.contact{
+    height: 150vh;
+
+    background-color: rgb(226, 216, 202);
+}
+  
+.text-center{
+    text-align: center;
+    padding: 16px 0px;
+    color: white;
+}
+.form{
+    max-width: 400px;
+    margin: auto;
+}
+.form input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: 26px auto;
+}
+.contact textarea{
+    border: 2px solid black;
+    border-radius: 11px;
+    padding: 9px 11px;
+    margin-bottom: 12px;
+    width: 99%;
+    font-style: italic;
+
+}
+.text-footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.background1{
+    background: rgba(0,0,0,0.7) url('https://source.unsplash.com/1600x900/?mobile,phone');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 11px;
+    padding: 1px 3px;
+}
+
+@media only screen and (max-width: 958px){
+    .navlist {
+        flex-direction: column;
+        margin: 6px 0px;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 312px;
+        transition: all 0.5s ease-out;
+    }
+    
+        .logo img {
+            width: 28%;
+            height: 36px;
+            margin: 12px 0px;
+    }
+    .rightNav {
+        /* background-color: royalblue; */
+       
+        max-width: 47%;
+        display: flex;
+        /* margin: auto; */
+    }
+    .nav-list li a {
+        
+        font-size: 18px;
+    }
+    .section {
+        padding: 18px 72px;
+        margin: 13px auto;
+    }
+    .btn-sm {
+       
+        margin: auto 6px;
+    }
+    .burger{
+    
+        display: block;
+    }
+    .h-nav-resp{
+        height: 62px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+
+
+    
+    .section{
+        flex-direction: column-reverse;
+        max-width:100%;
+        height: 600px;
+        
+    }
+    .firstSection{
+        height: 68vh;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+    }
+    .secondHalf img {
+        width: 111px;
+        height: 105px;
+        
+    }
+    .text-big {
+        
+        text-align: center;
+    }
+    .text-small {
+        
+        text-align: center;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+    
+        
+
+}
+   
